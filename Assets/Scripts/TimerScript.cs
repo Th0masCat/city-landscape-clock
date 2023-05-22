@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
+using TMPro;
 
 public class TimerScript : MonoBehaviour
 {
-    public Transform hourHand;
-    public Transform minuteHand;
-    public Transform secondHand;
+    [SerializeField] Transform hourHand;
+    [SerializeField] Transform minuteHand;
+    [SerializeField] Transform secondHand;
+
+    [SerializeField] TextMeshProUGUI timeText;
 
     void Update()
     {
@@ -28,5 +31,8 @@ public class TimerScript : MonoBehaviour
         hourHand.localRotation = Quaternion.Euler(0f, hourAngle, 0f);
         minuteHand.localRotation = Quaternion.Euler(0f, minuteAngle, 0f);
         secondHand.localRotation = Quaternion.Euler(0f, secondAngle, 0f);
+
+        // Update the text label
+        timeText.text = currentTime.ToString("h:mm:ss tt");
     }
 }
