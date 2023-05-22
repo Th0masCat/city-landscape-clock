@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-city-landscape-0.1";
 const contentToCache = [
     "Build/WebGLBuild.loader.js",
-    "Build/WebGLBuild.framework.js.gz",
-    "Build/WebGLBuild.data.gz",
-    "Build/WebGLBuild.wasm.gz",
+    "Build/WebGLBuild.framework.js",
+    "Build/WebGLBuild.data",
+    "Build/WebGLBuild.wasm",
     "TemplateData/style.css"
 
 ];
