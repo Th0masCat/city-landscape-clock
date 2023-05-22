@@ -9,7 +9,6 @@ public class TimerScript : MonoBehaviour
     [SerializeField] Transform hourHand;
     [SerializeField] Transform minuteHand;
     [SerializeField] Transform secondHand;
-
     [SerializeField] TextMeshProUGUI timeText;
 
     void Update()
