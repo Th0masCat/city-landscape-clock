@@ -9,6 +9,7 @@ public class SceneRotator : MonoBehaviour
 
     void Update()
     {
+        // Rotate the scene based on the mouse movement
         if (Input.GetMouseButtonDown(0))
         {
             lastMousePosition = Input.mousePosition;
@@ -22,9 +23,10 @@ public class SceneRotator : MonoBehaviour
 
             lastMousePosition = Input.mousePosition;
         }
+        // Normal Rotation
         else
         {
-            transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime, Space.World);
+            transform.Rotate(Vector3.up, 2 * Time.deltaTime, Space.World);
         }
     }
 }
