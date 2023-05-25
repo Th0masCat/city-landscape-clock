@@ -5915,7 +5915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 337388734}
   m_Layer: 0
-  m_Name: Hours Pivot
+  m_Name: Minutes Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9344,7 +9344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 578421718}
   m_Layer: 0
-  m_Name: Minutes Pivot
+  m_Name: Hours Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30469,8 +30469,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61ad019fe16165d4aa4e238569ee20ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hourHand: {fileID: 337388734}
-  minuteHand: {fileID: 578421718}
+  hourHand: {fileID: 578421718}
+  minuteHand: {fileID: 337388734}
   secondHand: {fileID: 299829281}
   timeText: {fileID: 2047975839}
 --- !u!23 &2018797911
@@ -30634,7 +30634,7 @@ GameObject:
   - component: {fileID: 2042610553}
   - component: {fileID: 2042610552}
   m_Layer: 0
-  m_Name: Minutes Hand
+  m_Name: Hours Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31863,7 +31863,7 @@ GameObject:
   - component: {fileID: 2112597291}
   - component: {fileID: 2112597290}
   m_Layer: 0
-  m_Name: Hours Hand
+  m_Name: Minutes Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
