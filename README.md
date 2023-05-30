@@ -1,8 +1,7 @@
 # City Landscape + Clock in Unity
 
-This is my submission for the Innorik Unity Assignment. Here are the key features:
-
-- I have created an orthographic scene in Unity that showcases a charming small city.
+Key features:
+- Orthographic scene in Unity that showcases a charming small city.
 - The entire scene rotates at a slow and soothing speed.
 - You can interact with the scene by controlling the rotation using the left mouse button.
 - The centerpiece of the city is an elegant clock placed at its heart.
